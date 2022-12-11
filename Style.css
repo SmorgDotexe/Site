@@ -5,7 +5,6 @@ header
 }
 
 body  { 
-	background:  linear-gradient(to bottom right, #92ff49 0%, #e8ff8b 100%);
 	background-attachment:local;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -14,10 +13,16 @@ body  {
 	margin: 0px; 
 	padding: 0px;
 	}
+
 footer
 {
 	margin: 0px; 
 	padding: 0px;
+}
+.Backdrop
+{
+	background: rgb(3,3,31);
+	background: linear-gradient(135deg, rgb(6, 73, 21) 0%, rgba(146,255,73,1) 60%, rgba(232,255,139,1) 100%);
 }
 .banner
 {
@@ -69,7 +74,8 @@ ul{
 	border-style:solid;
 	border-right: wheat;
 	border-left: wheat;
-	border-color: rgb(108, 108, 108);
+	border-color: rgb(8, 49, 10);
+	border-width: 10px;
 	letter-spacing: 1px;
 	list-style-type: none;
 	margin: 0;
@@ -84,6 +90,7 @@ h3
 {
 	font-size: 100%;
 	margin: 0px;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h3::first-letter
 {
