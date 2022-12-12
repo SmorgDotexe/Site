@@ -66,6 +66,7 @@ h5
 {
 	color:rgb(255, 255, 255);
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style: italic;
 	font-size: 70px;
 }
 h6
@@ -95,12 +96,8 @@ a{text-decoration: none;}
 	margin: 0;
 	padding: 0;
 }
-.Navbar li{
-    display:inline;
-}
 .Navbar a{
     display:inline-block;
-    padding:10px;
 }
 h3
 {
@@ -128,14 +125,25 @@ h5::first-letter
 }
 .logo
 {
-	border-width: 1px;
+	border-width: 2px;
 	border-style: solid;
 	border-color: black;
-	position: absolute;
 	height: 50px;
 }
 audio
 {
 	position:relative;
 	height: 50px;
+}
+.Infobox
+{
+	top: 50px;
+	margin: auto;
+	height: 1000px;
+	width: 90%;
+	position: relative;
+	border-width: 5px;
+	border-top-style: double;
+	border-color: white;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.454) 0%, rgba(255,255,255,0.6670869031206232) 68%, rgba(255,255,255,0) 100%);
 }
